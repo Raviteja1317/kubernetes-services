@@ -23,15 +23,20 @@
 
      
 
- 2.Node port:  Node port service provides a services on static port on node in the cluster. It is the accessiable both within cluster and externally. Using the node's IP address and node 
+ 2.Node port: 
+ 
+      *  Node port service provides a services on static port on node in the cluster. It is the accessiable both within cluster and externally. Using the node's IP address and node 
               port
               
 
- 3.Load Balancer: Load balancer service is using cloud provider's load balancer to distribute the traffic to the service. External clicent can be access the services using the publicly 
+ 3.Load Balancer: 
+ 
+          * Load balancer service is using cloud provider's load balancer to distribute the traffic to the service. External clicent can be access the services using the publicly 
                   accessible IP address
                   
 
- 4.External name: External name service provides the services DNS name that maps to an external service or endpoint.
+ 4.External name:
+        *  External name service provides the services DNS name that maps to an external service or endpoint.
                    the allowing the service to redirect request to an external endpoint outside the cluster.
   
 
